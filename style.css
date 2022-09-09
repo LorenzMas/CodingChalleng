@@ -1,0 +1,74 @@
+body {                                        /*SFONDO BODY*/
+  background-image: url(background.jpg);
+  background-size: cover;
+  margin: 0px;
+  height: 1200px;
+}
+
+.body-container {                             /*RIQUADRO IN TRASPARENZA*/
+  height: 68%;
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  margin-left: 400px;
+  margin-top: 60px;
+  border-radius: 1em;
+}
+
+ header .title {                               /*CENTRO LOGO E TESTO  */
+  text-align: center;
+  padding-top: 85px;
+}
+
+.title > h1 {                                  /*POSIZIONAMENTO TESTO + COLOR*/
+  margin-bottom: 0px;
+  margin-top: 0px;
+  color: rgba(0, 221, 0, 225);
+}
+
+nav .navigation {                              /*POSIZIONAMENTO BUTTON E BACKGROUND*/
+  text-align: center;
+  background-color: rgba(0, 221, 0, 225);
+  margin: 0px 100px 0px 100px;
+  padding: 10px 0px 10px 0px;
+}
+
+main .chose {
+  margin-left: 100px;
+  color: white;
+}
+
+.chose > h3 {
+  display: inline-block;
+  margin-bottom: 0px;
+
+}
+
+.chose > p {
+  margin: 2px;
+
+}
+
+.battery-status {                           /*INDICATORE STATO CARICA BATTERIE*/
+  height: 25px;
+  width: 250px;
+  background-color: orange;
+  border-radius: 0.5em;
+  margin-bottom: 10px;
+}
+
+.battery-status2 {
+  height: 25px;
+  width: 450px;
+  background-color: rgba(0, 221, 0, 225);
+  border-radius: 0.5em;
+  margin-bottom: 10px;
+}
+
+.battery-status3 {
+  height: 25px;
+  width: 120px;
+  background-color: red;
+  border-radius: 0.5em;
+  margin-bottom: 10px;
+}
